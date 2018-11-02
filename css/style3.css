@@ -1,9 +1,9 @@
 
 
-@font-face {  
-  font-family: Roboto-Medium ;  
-  src: url( ../fonts/Roboto-Medium.ttf ) format("truetype");  
-} 
+@font-face {
+  font-family: Roboto-Medium ;
+  src: url( ../fonts/Roboto-Medium.ttf ) format("truetype");
+}
 /* reset */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -14,8 +14,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -26,7 +26,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -60,9 +60,6 @@ a{text-decoration:none;}
 .pos-absolute{position:absolute;}
 .display-block{display:block;}
 /*--------reset--------*/
-body {
-    background-color: black;
-}
 .header{
 	padding-top:15px;
 	margin:0 0 35px 0;
@@ -376,12 +373,12 @@ padding: 0 0 0 5px;
 	padding:7px 0;
 	font-size:14px;
 	color:#C4AC9E;
-	
+
 }
 .book-list li:first-child{
 	color:#9DC41D;
 	font-size:18px;
-	
+
 }
 /* form */
 .form{
@@ -597,7 +594,7 @@ select.error{
 #slider {
 	width:990px;
 	height:300px;
-	
+
 	/*IE bugfix*/
 	padding:0;
 	margin:0;
@@ -644,7 +641,7 @@ select.error{
 
 @media (max-width:800px) {
 .logo a {
-	font-size:35px;	
+	font-size:35px;
 }
 }
 
@@ -661,7 +658,7 @@ select.error{
 }
 .slide-box,.rhino-container,#slider {
 	height:250px;
-} 
+}
 }
 
 @media (max-width:667px) {
@@ -671,7 +668,7 @@ select.error{
 .f-menu ul {
 	margin:0;
 	text-align:center;
-} 
+}
 .copy {
 	position:static;
 	text-align:center;
